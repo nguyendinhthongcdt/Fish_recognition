@@ -44,4 +44,4 @@ if uploaded_file is not None:
     if Genrate_pred:
     
         prediction = model.predict(img).argmax()
-        st.write("**Predicted Label for the image is {}**".format(map_dict [prediction])) 
+        st.write("**Kết quả dự đoán {}**".format(map_dict [prediction])) 
