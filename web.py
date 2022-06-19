@@ -31,7 +31,7 @@ map_dict = {0: 'Cá ba đuôi',
  
 if uploaded_file is not None:
     # Convert the file
-    img = image.load_img(uploaded_file,target_size=(64,64)) #xử lí ảnh theo cách m làm
+    img = image.load_img(uploaded_file,target_size=(64,64)) 
     st.image(uploaded_file, channels="RGB") #hiển thị ảnh
     img = img_to_array(img)
     img = img.reshape(1,64,64,3)
@@ -39,9 +39,9 @@ if uploaded_file is not None:
     img = img/255
         
     #Button: nút dự đoán sau khi up ảnh
-    Genrate_pred = st.button("Generate Prediction") 
+    Genrate_pred = st.button("Dự đoán") 
     
     if Genrate_pred:
     
         prediction = model.predict(img).argmax()
-        st.write("**Predicted Label for the image is {}**".format(map_dict [prediction])) ##đưa ra dự đoán viêm phổi hay ko
+        st.write("**Predicted Label for the image is {}**".format(map_dict [prediction])) 
