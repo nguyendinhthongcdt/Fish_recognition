@@ -9,10 +9,11 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 model = tf.keras.models.load_model("model.h5") 
 
 st.header("Môn học: Trí tuệ nhân tạo")
-st.title("GVHD : PGS.TS Nguyễn Trường Thịnh")
-st.write("Họ và tên : Nguyễn Đình Thông")
-st.write("MSSV : 19146398")
+st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
+st.header("Họ và tên : Nguyễn Đình Thông")
+st.header("MSSV : 19146398")
 
+st.title("Nhận diện các loại cá cảnh")
 st.image('bg1.jpg')
 ### load file
 uploaded_file = st.file_uploader("Choose an image file", type=["jpg","jpeg","png"])
