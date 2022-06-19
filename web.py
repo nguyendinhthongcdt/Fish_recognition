@@ -1,4 +1,3 @@
-# Đoạn code này không cần quan tâm có chạy được trên python hay không, vì nó sẽ chạy trực tiếp trên github, do trên python chưa cài streamlit
 import numpy as np
 import streamlit as st
 import tensorflow as tf
@@ -9,6 +8,7 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 
 model = tf.keras.models.load_model("model.h5") #model m train
 
+st.write("Cảm ơn bạn Huế đã chỉ bài mình")
 ### load file
 uploaded_file = st.file_uploader("Choose an image file", type=["jpg","jpeg","png"])
 
