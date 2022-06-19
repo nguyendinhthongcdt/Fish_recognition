@@ -6,9 +6,9 @@ from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
 
-model = tf.keras.models.load_model("model.h5") #model m train
+model = tf.keras.models.load_model("model.h5") 
 
-st.write("Cảm ơn bạn Huế đã chỉ bài mình")
+#st.write("Cảm ơn bạn Huế đã chỉ bài mình :))")
 ### load file
 uploaded_file = st.file_uploader("Choose an image file", type=["jpg","jpeg","png"])
 
@@ -45,3 +45,4 @@ if uploaded_file is not None:
     
         prediction = model.predict(img).argmax()
         st.write("**Kết quả dự đoán {}**".format(map_dict [prediction])) 
+st.write("Cảm ơn bạn Huế đã chỉ bài mình :))")
