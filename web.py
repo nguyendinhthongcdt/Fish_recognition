@@ -9,7 +9,7 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 model = tf.keras.models.load_model("model.h5") 
 
 st.header("Môn học: Trí tuệ nhân tạo")
-st.write("GVHD : PGS.TS Nguyễn Trường Thịnh")
+st.title("GVHD : PGS.TS Nguyễn Trường Thịnh")
 st.write("Họ và tên : Nguyễn Đình Thông")
 st.write("MSSV : 19146398")
 
