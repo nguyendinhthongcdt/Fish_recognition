@@ -16,7 +16,7 @@ st.header("MSSV : 19146398")
 st.title("Nhận diện các loại cá cảnh")
 st.image('bg1.jpg')
 ### load file
-uploaded_file = st.file_uploader("Choose an image file", type=["jpg","jpeg","png"])
+uploaded_file = st.file_uploader("Upload hình cá cảnh", type=["jpg","jpeg","png","bmp"])
 
 map_dict = {0: 'Cá ba đuôi',
             1: 'Cá cánh buồm hồng',
