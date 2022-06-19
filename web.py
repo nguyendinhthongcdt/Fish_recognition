@@ -8,7 +8,10 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 
 model = tf.keras.models.load_model("model.h5") 
 
-#st.write("Cảm ơn bạn Huế đã chỉ bài mình :))")
+st.write("Môn học: Trí tuệ nhân tạo")
+st.write("GVHD : PGS.TS Nguyễn Trường Thịnh")
+st.write("Họ và tên : Nguyễn Đình Thông")
+st.write("MSSV : 19146398")
 ### load file
 uploaded_file = st.file_uploader("Choose an image file", type=["jpg","jpeg","png"])
 
@@ -32,7 +35,7 @@ map_dict = {0: 'Cá ba đuôi',
 if uploaded_file is not None:
     # Convert the file
     img = image.load_img(uploaded_file,target_size=(64,64)) 
-    st.image(uploaded_file, channels="RGB") #hiển thị ảnh
+    st.image(uploaded_file, channels="RGB") 
     img = img_to_array(img)
     img = img.reshape(1,64,64,3)
     img = img.astype('float32')
@@ -45,4 +48,4 @@ if uploaded_file is not None:
     
         prediction = model.predict(img).argmax()
         st.write("**Kết quả dự đoán {}**".format(map_dict [prediction])) 
-st.write("Cảm ơn bạn Huế đã chỉ bài mình :))")
+
