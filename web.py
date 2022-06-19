@@ -13,7 +13,7 @@ st.write("GVHD : PGS.TS Nguyễn Trường Thịnh")
 st.write("Họ và tên : Nguyễn Đình Thông")
 st.write("MSSV : 19146398")
 
-st.image('background.jpg')
+st.image('bg1.jpg')
 ### load file
 uploaded_file = st.file_uploader("Choose an image file", type=["jpg","jpeg","png"])
 
