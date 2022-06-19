@@ -12,8 +12,21 @@ model = tf.keras.models.load_model("Hue.h5") #model m train
 ### load file
 uploaded_file = st.file_uploader("Choose an image file", type=["jpg","jpeg","png"])
 
-map_dict = {0: 'NORMAL',
-            1: 'PNEUMONIA'} #vì của t có 2 laoij là bệnh với ko bị bệnh nên t làm cái này, cái này sẽ tùy vô giải thuật của m
+map_dict = {0: 'Cá ba đuôi',
+            1: 'Cá cánh buồm hồng',
+            2:'Cá chép sư tử trắng',
+            3:'Cá hạc đỉnh hồng',
+            4:'Cá hổ bạc',
+            5:'Cá la hán',
+            6:'Cá mã giáp hoàng kim',
+            7:'Cá mún panda',
+            8:'Cá neon',
+            9:'Cá phượng hoàng',
+            10:'Cá rồng huyết long',
+            11:'Cá rồng kim long',
+            12:'Cá sam black diamond',
+            13:'Cá thần tiên',
+            14:'Cá tứ vân'}
     
  
 if uploaded_file is not None:
