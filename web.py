@@ -26,7 +26,7 @@ with c1:
             st.text("CNN để nhận diện cá cảnh qua hình ảnh")
 
 #st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
-
+st.header("Kết quả model")
 c3,c4,c5=st.columns(3)
 with c3:
             st.image("acc.png",caption="Accuracy")
