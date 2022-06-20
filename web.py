@@ -11,6 +11,7 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 model = tf.keras.models.load_model("model.h5") 
 #st.sidebar.['Information']
 with st.sidebar:
+            st.sidebar.image("logo.png")
             st.sidebar.header("Môn học: Trí tuệ nhân tạo")
             st.sidebar.header("GVHD: PGS.TS Nguyễn Trường Thịnh")
             st.sidebar.header("Họ và tên : Nguyễn Đình Thông")
