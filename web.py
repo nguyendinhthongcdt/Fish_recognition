@@ -29,11 +29,11 @@ st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
 
 c3,c4,c5=st.columns(3)
 with c3:
-            st.image("acc.png",caption="acc")
+            st.image("acc.png",caption="Lccuracy")
 with c4:
-            st.image("chart2.png",caption="chart")
+            st.image("chart2.png",caption="Chart")
 with c5:
-            st.image("loss.png",caption="loss")
+            st.image("loss.png",caption="Loss")
             
 
 
