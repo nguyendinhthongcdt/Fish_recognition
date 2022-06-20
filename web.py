@@ -16,9 +16,9 @@ c1,c2=st.columns(2)
 with c2:
             st.image('bg1.jpg')
 with c1:
-            st.header("Môn học: Trí tuệ nhân tạo")
-            st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
-            st.header("Họ và tên : Nguyễn Đình Thông 19146398")
+            st.text("Môn học: Trí tuệ nhân tạo")
+            st.text("GVHD : PGS.TS Nguyễn Trường Thịnh")
+            st.text("Họ và tên : Nguyễn Đình Thông 19146398")
 st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
 
 c3,c4,c5=st.columns(3)
