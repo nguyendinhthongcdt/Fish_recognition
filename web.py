@@ -27,7 +27,7 @@ with c1:
             st.text("Trang web sử dụng mô hình mạng tích chập") 
             st.text("CNN để nhận diện các cá cảnh qua hình ảnh.")
 
-st.header("Kết quả model")
+st.header("Kết quả model sử dụng")
 c3,c4,c5=st.columns(3)
 with c3:
             st.image("acc.png",caption="Accuracy")
