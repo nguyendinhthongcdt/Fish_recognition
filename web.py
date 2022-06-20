@@ -29,7 +29,7 @@ st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
 
 c3,c4,c5=st.columns(3)
 with c3:
-            st.image("acc.png",caption="Lccuracy")
+            st.image("acc.png",caption="Accuracy")
 with c4:
             st.image("chart2.png",caption="Chart")
 with c5:
@@ -38,10 +38,8 @@ with c5:
 
 
 # Upload file ảnh
-c6,c7,c8=st.columns(3)
-with c7:
-            st.header("UPLOAD HÌNH ẢNH CÁ CẢNH")
-uploaded_file = st.file_uploader("" ,type=["jpg","jpeg","png","bmp"])
+
+uploaded_file = st.file_uploader("UPLOAD HÌNH ẢNH CÁ CẢNH" ,type=["jpg","jpeg","png","bmp"])
 
 map_dict = {0: 'Cá ba đuôi',
             1: 'Cá cánh buồm hồng',
