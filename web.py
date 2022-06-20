@@ -13,7 +13,7 @@ model = tf.keras.models.load_model("model.h5")
 with st.sidebar:
             c9,c10=st.columns(2)
             with c9:
-                        st.image('Logo_HCMUTE.png', target_size=(150,150))
+                        st.image('Logo_HCMUTE.png')
             with c10:
                         st.image('Logo_FME1.png')
 
