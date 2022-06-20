@@ -17,7 +17,7 @@ with st.sidebar:
             with c10:
                         st.image('Logo_FME1.png')
 
-            st.sidebar.header("Môn học: Trí tuệ nhân tạo")
+            st.sidebar.header("MÔN HỌC: TRÍ TUỆ NHÂN TẠO ")
             st.sidebar.header("GVHD: PGS.TS Nguyễn Trường Thịnh")
             st.sidebar.header("Họ và tên : Nguyễn Đình Thông")
             st.sidebar.header("MSSV: 19146398")
