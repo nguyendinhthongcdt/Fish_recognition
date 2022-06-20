@@ -11,11 +11,6 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 model = tf.keras.models.load_model("model.h5") 
 
 
-primaryColor="#F63366"
-backgroundColor="#FFFFEF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
-font="sans serif"
 # Phần thông tin
 st.header("Môn học: Trí tuệ nhân tạo")
 st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
