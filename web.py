@@ -16,6 +16,11 @@ st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
 st.header("Họ và tên : Nguyễn Đình Thông")
 st.header("MSSV : 19146398")
 st.title("   Nhận diện các loại cá cảnh")
+
+c1,c2,c3=st.column(3)
+with c1:
+            st.image("bg1.jpg",caption="anh1")
+            
 st.image('bg1.jpg',caption="Lưu ý: Trang web này chỉ mang tính chất thao khảo")
 
 # Upload file ảnh
