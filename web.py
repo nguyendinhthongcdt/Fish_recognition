@@ -11,10 +11,10 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 model = tf.keras.models.load_model("model.h5") 
 #st.sidebar.['Information']
 with st.sidebar:
-            c9,c10=st.columns(2)
-            with c9:
+            c1,c2=st.columns(2)
+            with c1:
                         st.image('Logo_HCMUTE.png')
-            with c10:
+            with c2:
                         st.image('Logo_FME1.png')
 
             st.sidebar.header("MÔN HỌC: TRÍ TUỆ NHÂN TẠO ")
@@ -24,21 +24,21 @@ with st.sidebar:
 # Phần thông tin
 
 st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
-c1,c2=st.columns(2)
-with c2:
-            st.image('bg1.jpg')
-with c1:
+c3,c4=st.columns(2)
+with c3:
             st.header("Giới thiệu")
             st.text("Trang web sử dụng mô hình mạng tích chập") 
             st.text("CNN để nhận diện các cá cảnh qua hình ảnh.")
+with c4:
+            st.image('bg1.jpg')
 
 st.header("Kết quả model sử dụng")
-c3,c4,c5=st.columns(3)
-with c3:
-            st.image("acc.png",caption="Accuracy")
-with c4:
-            st.image("chart2.png",caption="Chart")
+c5,c6,c7=st.columns(3)
 with c5:
+            st.image("acc.png",caption="Accuracy")
+with c6:
+            st.image("chart2.png",caption="Chart")
+with c7:
             st.image("loss.png",caption="Loss")
             
 
