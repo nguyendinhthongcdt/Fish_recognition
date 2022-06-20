@@ -29,7 +29,7 @@ with c3:
 #st.image('bg1.jpg',caption="Lưu ý: Trang web này chỉ mang tính chất thao khảo")
 
 # Upload file ảnh
-uploaded_file = st.file_uploader("Upload hình ảnh cá cảnh", type=["jpg","jpeg","png","bmp"])
+uploaded_file = st.file_uploader("UPLOAD HÌNH ẢNH CÁ CẢNH", type=["jpg","jpeg","png","bmp"])
 
 map_dict = {0: 'Cá ba đuôi',
             1: 'Cá cánh buồm hồng',
