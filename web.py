@@ -9,7 +9,7 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 
 # Tải model
 model = tf.keras.models.load_model("model.h5") 
-st.sidebar.[Information]
+st.sidebar.['Information']
 with st.sidebar:
             st.sidebar.text("Đây là sidebar")
 # Phần thông tin
