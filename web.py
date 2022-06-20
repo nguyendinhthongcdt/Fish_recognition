@@ -22,7 +22,7 @@ c1,c2,c3=st.columns(3)
 with c1:
             st.image("acc.png",caption="acc")
 with c2:
-            st.image("bg1.jpg",caption="anh2")
+            st.image("chart.png",caption="chart")
 with c3:
             st.image("loss.png",caption="loss")
             
