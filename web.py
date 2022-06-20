@@ -29,20 +29,20 @@ if uploaded_file is not None:
     img = img/255
 # Gắn nhãn các lớp
   map_dict = {0: 'Cá ba đuôi',
-            1: 'Cá cánh buồm hồng',
-            2:'Cá chép sư tử trắng',
-            3:'Cá hạc đỉnh hồng',
-            4:'Cá hổ bạc',
-            5:'Cá la hán',
-            6:'Cá mã giáp hoàng kim',
-            7:'Cá mún panda',
-            8:'Cá neon',
-            9:'Cá phượng hoàng',
-            10:'Cá rồng huyết long',
-            11:'Cá rồng kim long',
-            12:'Cá sam black diamond',
-            13:'Cá thần tiên',
-            14:'Cá tứ vân'}      
+              1: 'Cá cánh buồm hồng',
+              2:'Cá chép sư tử trắng',
+              3:'Cá hạc đỉnh hồng',
+              4:'Cá hổ bạc',
+              5:'Cá la hán',
+              6:'Cá mã giáp hoàng kim',
+              7:'Cá mún panda',
+              8:'Cá neon',
+              9:'Cá phượng hoàng',
+              10:'Cá rồng huyết long',
+              11:'Cá rồng kim long',
+              12:'Cá sam black diamond',
+              13:'Cá thần tiên',
+              14:'Cá tứ vân'}      
             
     # Nút nhấn
     Genrate_pred = st.button("Dự đoán") 
