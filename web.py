@@ -9,6 +9,11 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 
 model = tf.keras.models.load_model("model.h5") 
 
+primaryColor="#6eb52f"
+backgroundColor="#f0f0f5"
+secondaryBackgroundColor="#e0e0ef"
+textColor="#262730"
+font="sans serif"
 st.header("Môn học: Trí tuệ nhân tạo")
 st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
 st.header("Họ và tên : Nguyễn Đình Thông")
@@ -16,7 +21,7 @@ st.header("MSSV : 19146398")
 
 st.title("Nhận diện các loại cá cảnh")
 st.image('bg1.jpg')
-### load file
+# Upload file ảnh
 uploaded_file = st.file_uploader("Upload hình cá cảnh", type=["jpg","jpeg","png","bmp"])
 
 map_dict = {0: 'Cá ba đuôi',
@@ -37,7 +42,7 @@ map_dict = {0: 'Cá ba đuôi',
     
  
 if uploaded_file is not None:
-    # Convert the file
+    # Chỉnh sửa ảnh đầu vào
     img = image.load_img(uploaded_file,target_size=(64,64)) 
     st.image(uploaded_file, channels="RGB") 
     img = img_to_array(img)
@@ -45,7 +50,7 @@ if uploaded_file is not None:
     img = img.astype('float32')
     img = img/255
         
-    #Button: nút dự đoán sau khi up ảnh
+    #Nút nhấn
     Genrate_pred = st.button("Dự đoán") 
     
     if Genrate_pred:
