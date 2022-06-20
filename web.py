@@ -16,10 +16,10 @@ st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
 st.header("Họ và tên : Nguyễn Đình Thông")
 st.header("MSSV : 19146398")
 st.title("   Nhận diện các loại cá cảnh")
-st.image('bg1.jpg')
+st.image('bg1.jpg',caption="Lưu ý: Trang web này chỉ mang tính chất thao khảo")
 
 # Upload file ảnh
-uploaded_file = st.file_uploader("Upload hình cá cảnh", type=["jpg","jpeg","png","bmp"])
+uploaded_file = st.file_uploader("Upload hình ảnh cá cảnh", type=["jpg","jpeg","png","bmp"])
 
 map_dict = {0: 'Cá ba đuôi',
             1: 'Cá cánh buồm hồng',
