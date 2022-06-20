@@ -13,10 +13,10 @@ model = tf.keras.models.load_model("model.h5")
 with st.sidebar:
             c9,c10=st.columns(2)
             with c9:
-                        st.image('Logo_HCMUTE.png')
+                        st.image('Logo_HCMUTE.png', target_size=(150,150))
             with c10:
                         st.image('Logo_FME1.png')
-            st.header("Giới thiệu")
+
             st.sidebar.header("Môn học: Trí tuệ nhân tạo")
             st.sidebar.header("GVHD: PGS.TS Nguyễn Trường Thịnh")
             st.sidebar.header("Họ và tên : Nguyễn Đình Thông")
