@@ -13,9 +13,9 @@ model = tf.keras.models.load_model("model.h5")
 
 # Phần thông tin
 c1,c2=st.columns(2)
-with c1:
-            st.image('bg1.jpg')
 with c2:
+            st.image('bg1.jpg')
+with c1:
             st.header("Môn học: Trí tuệ nhân tạo")
             st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
             st.header("Họ và tên : Nguyễn Đình Thông 19146398")
