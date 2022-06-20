@@ -12,8 +12,9 @@ model = tf.keras.models.load_model("model.h5")
 #st.sidebar.['Information']
 with st.sidebar:
             st.sidebar.header("Môn học: Trí tuệ nhân tạo")
-            st.sidebar.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
-            st.sidebar.header("Họ và tên : Nguyễn Đình Thông 19146398")
+            st.sidebar.header("GVHD: PGS.TS Nguyễn Trường Thịnh")
+            st.sidebar.header("Họ và tên : Nguyễn Đình Thông")
+            st.sidebar.header("MSSV: 19146398")
 # Phần thông tin
 c1,c2=st.columns(2)
 with c2:
