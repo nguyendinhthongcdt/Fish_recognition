@@ -11,7 +11,7 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 model = tf.keras.models.load_model("model.h5") 
 #st.sidebar.['Information']
 with st.sidebar:
-            st.sidebar.text("Đây là sidebar")
+            st.sidebar.header("Đây là sidebar")
 # Phần thông tin
 c1,c2=st.columns(2)
 with c2:
