@@ -14,19 +14,19 @@ model = tf.keras.models.load_model("model.h5")
 # Phần thông tin
 c1,c2=st.columns(2)
 with c1:
+            st.image('bg1.jpg')
+with c1:
             st.header("Môn học: Trí tuệ nhân tạo")
             st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
             st.header("Họ và tên : Nguyễn Đình Thông 19146398")
-with c1:
-           st.image('bg1.jpg')
 st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
 
 c3,c4,c5=st.columns(3)
-with c1:
-            st.image("acc.png",caption="acc")
-with c2:
-            st.image("chart.png",caption="chart")
 with c3:
+            st.image("acc.png",caption="acc")
+with c4:
+            st.image("chart.png",caption="chart")
+with c5:
             st.image("loss.png",caption="loss")
             
 
