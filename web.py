@@ -28,8 +28,8 @@ if uploaded_file is not None:
     img = img.astype('float32')
     img = img/255
 # Gắn nhãn các lớp
-  map_dict = {0: 'Cá ba đuôi',
-              1: 'Cá cánh buồm hồng',
+  map_dict = {0:'Cá ba đuôi',
+              1:'Cá cánh buồm hồng',
               2:'Cá chép sư tử trắng',
               3:'Cá hạc đỉnh hồng',
               4:'Cá hổ bạc',
