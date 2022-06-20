@@ -31,7 +31,7 @@ c3,c4,c5=st.columns(3)
 with c3:
             st.image("acc.png",caption="acc")
 with c4:
-            st.image("chart.png",caption="chart")
+            st.image("chart2.png",caption="chart")
 with c5:
             st.image("loss.png",caption="loss")
             
