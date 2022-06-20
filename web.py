@@ -17,6 +17,8 @@ with st.sidebar:
             st.sidebar.header("Họ và tên : Nguyễn Đình Thông")
             st.sidebar.header("MSSV: 19146398")
 # Phần thông tin
+
+st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
 c1,c2=st.columns(2)
 with c2:
             st.image('bg1.jpg')
@@ -36,7 +38,7 @@ with c5:
             st.image("loss.png",caption="Loss")
             
 
-st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
+
 # Upload file ảnh
 
 uploaded_file = st.file_uploader("UPLOAD HÌNH ẢNH CÁ CẢNH" ,type=["jpg","jpeg","png","bmp"])
