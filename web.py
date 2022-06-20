@@ -7,20 +7,17 @@ from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
 
+# Tải model
 model = tf.keras.models.load_model("model.h5") 
 
-primaryColor="#6eb52f"
-backgroundColor="#f0f0f5"
-secondaryBackgroundColor="#e0e0ef"
-textColor="#262730"
-font="sans serif"
+# Phần thông tin
 st.header("Môn học: Trí tuệ nhân tạo")
 st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
 st.header("Họ và tên : Nguyễn Đình Thông")
 st.header("MSSV : 19146398")
-
 st.title("Nhận diện các loại cá cảnh")
 st.image('bg1.jpg')
+
 # Upload file ảnh
 uploaded_file = st.file_uploader("Upload hình cá cảnh", type=["jpg","jpeg","png","bmp"])
 
@@ -50,9 +47,10 @@ if uploaded_file is not None:
     img = img.astype('float32')
     img = img/255
         
-    #Nút nhấn
+    # Nút nhấn
     Genrate_pred = st.button("Dự đoán") 
-    
+            
+    # Dự đoán và hiển thị kết quả
     if Genrate_pred:
         prediction = model.predict(img).argmax()
         st.write("**Kết quả nhận diện: {}**".format(map_dict [prediction])) 
