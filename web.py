@@ -40,7 +40,7 @@ with c5:
 # Upload file ảnh
 c6,c7,c8=st.columns(3)
 with c7:
-            st.caption("UPLOAD HÌNH ẢNH CÁ CẢNH")
+            st.header("UPLOAD HÌNH ẢNH CÁ CẢNH")
 uploaded_file = st.file_uploader("" ,type=["jpg","jpeg","png","bmp"])
 
 map_dict = {0: 'Cá ba đuôi',
