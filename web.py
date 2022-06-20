@@ -21,7 +21,8 @@ with c2:
             st.image('bg1.jpg')
 with c1:
             st.header("Giới thiệu")
-            st.text("Trang web sử dụng mô hình mạng tích chập CNN để nhận diện cá cảnh qua hình ảnh")
+            st.text("Trang web sử dụng mô hình mạng tích chập CNN
+                    để nhận diện cá cảnh qua hình ảnh")
 
 st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
 
