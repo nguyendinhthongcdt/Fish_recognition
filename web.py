@@ -14,8 +14,8 @@ model = tf.keras.models.load_model("model.h5")
 # Phần thông tin
 st.header("Môn học: Trí tuệ nhân tạo")
 st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
-st.header("Họ và tên : Nguyễn Đình Thông")
-st.header("MSSV : 19146398")
+st.header("Họ và tên : Nguyễn Đình Thông 19146398")
+#st.header("MSSV : 19146398")
 st.title("   Nhận diện các loại cá cảnh")
 
 c1,c2,c3=st.columns(3)
