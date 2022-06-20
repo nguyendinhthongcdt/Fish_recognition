@@ -25,7 +25,7 @@ with c2:
 with c1:
             st.header("Giới thiệu")
             st.text("Trang web sử dụng mô hình mạng tích chập") 
-            st.text("CNN để nhận diện các cá cảnh qua hình ảnh")
+            st.text("CNN để nhận diện các cá cảnh qua hình ảnh.")
 
 st.header("Kết quả model")
 c3,c4,c5=st.columns(3)
@@ -40,7 +40,7 @@ with c5:
 
 # Upload file ảnh
 
-uploaded_file = st.file_uploader("UPLOAD HÌNH ẢNH CÁ CẢNH" ,type=["jpg","jpeg","png","bmp"])
+uploaded_file = st.file_uploader(st.header("UPLOAD HÌNH ẢNH CÁ CẢNH") ,type=["jpg","jpeg","png","bmp"])
 
 map_dict = {0: 'Cá ba đuôi',
             1: 'Cá cánh buồm hồng',
