@@ -11,15 +11,17 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 model = tf.keras.models.load_model("model.h5") 
 #st.sidebar.['Information']
 with st.sidebar:
-            st.sidebar.header("Đây là sidebar")
+            st.sidebar.header("Môn học: Trí tuệ nhân tạo")
+            st.sidebar.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
+            st.sidebar.header("Họ và tên : Nguyễn Đình Thông 19146398")
 # Phần thông tin
 c1,c2=st.columns(2)
 with c2:
             st.image('bg1.jpg')
 with c1:
-            st.text("Môn học: Trí tuệ nhân tạo")
-            st.text("GVHD : PGS.TS Nguyễn Trường Thịnh")
-            st.text("Họ và tên : Nguyễn Đình Thông 19146398")
+            st.header("Giới thiệu")
+            st.text("Trang web sử dụng mô hình mạng tích chập CNN để nhận diện cá cảnh qua hình ảnh")
+
 st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
 
 c3,c4,c5=st.columns(3)
