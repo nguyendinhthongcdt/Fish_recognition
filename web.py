@@ -66,7 +66,7 @@ if uploaded_file is not None:
     img = img/255
         
     # Nút nhấn
-    Genrate_pred = st.button("Dự đoán") 
+    Genrate_pred = st.button("DỰ ĐOÁN") 
             
     # Dự đoán và hiển thị kết quả
     if Genrate_pred:
