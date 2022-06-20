@@ -15,7 +15,7 @@ st.header("Môn học: Trí tuệ nhân tạo")
 st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
 st.header("Họ và tên : Nguyễn Đình Thông")
 st.header("MSSV : 19146398")
-st.title("Nhận diện các loại cá cảnh")
+st.title("   Nhận diện các loại cá cảnh")
 st.image('bg1.jpg')
 
 # Upload file ảnh
