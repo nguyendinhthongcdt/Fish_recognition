@@ -19,11 +19,11 @@ st.title("   Nhận diện các loại cá cảnh")
 
 c1,c2,c3=st.columns(3)
 with c1:
-            st.image("bg1.jpg",caption="anh1")
+            st.image("acc.png",caption="acc")
 with c2:
             st.image("bg1.jpg",caption="anh2")
 with c3:
-            st.image("bg1.jpg",caption="anh3")
+            st.image("loss.png",caption="loss")
             
 #st.image('bg1.jpg',caption="Lưu ý: Trang web này chỉ mang tính chất thao khảo")
 
