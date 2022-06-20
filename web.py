@@ -17,11 +17,15 @@ st.header("Họ và tên : Nguyễn Đình Thông")
 st.header("MSSV : 19146398")
 st.title("   Nhận diện các loại cá cảnh")
 
-c1,c2,c3=st.column(3)
+c1,c2,c3=st.columns(3)
 with c1:
             st.image("bg1.jpg",caption="anh1")
+with c2:
+            st.image("bg1.jpg",caption="anh2")
+with c3:
+            st.image("bg1.jpg",caption="anh3")
             
-st.image('bg1.jpg',caption="Lưu ý: Trang web này chỉ mang tính chất thao khảo")
+#st.image('bg1.jpg',caption="Lưu ý: Trang web này chỉ mang tính chất thao khảo")
 
 # Upload file ảnh
 uploaded_file = st.file_uploader("Upload hình ảnh cá cảnh", type=["jpg","jpeg","png","bmp"])
