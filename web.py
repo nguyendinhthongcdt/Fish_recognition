@@ -74,6 +74,6 @@ if uploaded_file is not None:
         prediction = model.predict(img).argmax()
         st.write("**Kết quả nhận diện: {}**".format(map_dict [prediction])) 
         probabilityValue = np.amax(prediction) 
-        st.write(round(probabilityValue*100, 2)) + " %"+"\n"
+        st.write(round("Độ chính xác là:",probabilityValue*100, 2)) + " %"
 st.warning("Lưu ý: Trang web này chỉ mang tính chất thao khảo")
 
