@@ -54,7 +54,6 @@ if uploaded_file is not None:
     Genrate_pred = st.button("Dự đoán") 
     
     if Genrate_pred:
-    
         prediction = model.predict(img).argmax()
-        st.write("**Kết quả nhận diện {}**".format(map_dict [prediction])) 
+        st.write("**Kết quả nhận diện: {}**".format(map_dict [prediction])) 
 
