@@ -41,7 +41,7 @@ with c5:
 c6,c7,c8=st.columns(3)
 with c7:
             st.text("UPLOAD HÌNH ẢNH CÁ CẢNH")
-uploaded_file = st.file_uploader( type=["jpg","jpeg","png","bmp"])
+uploaded_file = st.file_uploader("Chọn file" ,type=["jpg","jpeg","png","bmp"])
 
 map_dict = {0: 'Cá ba đuôi',
             1: 'Cá cánh buồm hồng',
