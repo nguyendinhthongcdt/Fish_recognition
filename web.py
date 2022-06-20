@@ -16,6 +16,7 @@ st.header("Môn học: Trí tuệ nhân tạo")
 st.header("GVHD : PGS.TS Nguyễn Trường Thịnh")
 st.header("Họ và tên : Nguyễn Đình Thông 19146398")
 #st.header("MSSV : 19146398")
+st.image('bg1.jpg')
 st.title("NHẬN DIỆN CÁC LOẠI CÁ CẢNH")
 
 c1,c2,c3=st.columns(3)
@@ -26,7 +27,7 @@ with c2:
 with c3:
             st.image("loss.png",caption="loss")
             
-#st.image('bg1.jpg',caption="Lưu ý: Trang web này chỉ mang tính chất thao khảo")
+
 
 # Upload file ảnh
 uploaded_file = st.file_uploader("UPLOAD HÌNH ẢNH CÁ CẢNH", type=["jpg","jpeg","png","bmp"])
